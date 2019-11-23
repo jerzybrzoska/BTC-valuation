@@ -1,4 +1,7 @@
-#| My dear crypto comrade! To get the expected price of Bitcoin, once it replaces gold in its use as an investment, type in your Scheme REPL, e.g. Racket, "futureprice". 
+; futureprice : number -> number]
+; Given the 7 trillon market cap of gold produces the future price of BTC once it replaces gold in its use as an investment
+
+#| My dear crypto comrades! To get the expected price of Bitcoin type in your Scheme REPL, e.g. Racket, "futureprice". 
 
 
 (define mcgold 7) ; the market cap of gold in trillions of $
