@@ -1,7 +1,7 @@
-; futureprice : number -> number]
-; Given the 7 trillon market cap of gold produces the future price of BTC once it replaces gold in its use as an investment
+#!/usr/bin/env racket 
+#lang racket
 
-#| My dear crypto comrades! To get the expected price of Bitcoin type in your Scheme REPL, e.g. Racket, "futureprice". 
+#| My dear crypto comrade! To get the expected price of Bitcoin, once it replaces gold in its use as an investment, type in your Scheme REPL, e.g. Racket, "futureprice". |#
 
 
 (define mcgold 7) ; the market cap of gold in trillions of $
@@ -11,6 +11,8 @@
 (define btcamount 21000000)
 
 (define futureprice (/ (* futuremcbtc 1000000000000) btcamount)) 
+
+(printf "Based on Gold's valuation, Bitcoin's price shoulf reach $~a." futureprice)
 
 #| References
 
